@@ -1,2 +1,2 @@
-const secretButton = document.getElementById('secret-button');
-const secretParagraph = document.getElementById('secret-paragraph');
+export const secretButton = document.getElementById('secret-button');
+export const secretParagraph = document.getElementById('secret-paragraph');

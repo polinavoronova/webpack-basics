@@ -1,0 +1,27 @@
+{
+  "name": "webpack-basics",
+  "version": "1.0.0",
+  "description": "webpack installation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polinavoronova/webpack-basics.git"
+  },
+  "author": "Polina Voronova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polinavoronova/webpack-basics/issues"
+  },
+  "homepage": "https://github.com/polinavoronova/webpack-basics#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
