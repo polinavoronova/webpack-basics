@@ -1,4 +1,6 @@
 import { secretButton, secretParagraph } from './dom-loader.js';
+import '../scss/input-elements.scss';
+import '../scss/main.scss';
 
 let showSecret = false;
 
